@@ -1,0 +1,2 @@
+df=spark.read.format("parquet").option("header",True).option("inferschema",True).load("/Volumes/testing/default/house_details/house-price.parquet")
+df.write.mode("overwrite").saveAsTable("testing.hp.hp1_bronze")
