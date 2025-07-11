@@ -1,0 +1,4 @@
+Create this Query file before creating this pipeline.
+
+CREATE CATALOG IF NOT EXISTS testing;
+CREATE SCHEMA IF NOT EXISTS testing.hp;
